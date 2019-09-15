@@ -1,0 +1,895 @@
+0	0	When everything is starting up,
+0	1	Whenever someone moves,
+0	2	When someone moves into floor %i,
+0	3	When someone moves into item %i,
+0	4	When someone turns,
+0	5	When someone turns right(clockwise),
+0	6	When someone turns left(counterclockwise),
+0	7	When someone moves into position (%p),
+0	8	When someone drops any item,
+0	9	When someone arrives in the Dream,
+0	10	When someone leaves the Dream,
+0	11	When someone stands up,
+0	12	When someone sits down,
+0	13	When someone lays down,
+0	14	When someone picks up any item,
+0	15	When someone uses the get/drop command,
+0	16	When someone uses any item,
+0	17	When someone picks up item %i,
+0	18	When someone drops item %i,
+0	19	When someone uses item %i,
+0	20	When someone rolls exactly %i on %i dice of %i sides,
+0	21	When someone rolls %i or lower on %i dice of %i sides,
+0	22	When someone rolls %i or higher on %i dice of %i sides,
+0	23	When someone rolls exactly %i on some dice,
+0	24	When someone rolls %i or lower on some dice,
+0	25	When someone rolls %i or higher on some dice,
+0	26	When someone moves into any space in region %i,
+0	27	When someone moves into any space in regions %i through %i,
+0	28	When someone moves from region %i to region %i,
+0	29	When someone moves into any space with effect overlay %i,
+0	30	When someone says anything,
+0	31	When someone says %s,
+0	32	When someone says something with %s in it,
+0	33	When someone poses/emotes anything,
+0	34	When someone emotes %s,
+0	35	When someone emotes something with %s in it,
+0	36	When someone says or emotes anything,
+0	37	When someone says or emotes %s,
+0	38	When someone says or emotes something with %s in it,
+0	39	When someone emits anything,
+0	40	When someone emits %s,
+0	41	When someone emits something with %s in it,
+0	42	When someone moves into any space with lighting %i,
+0	43	When someone moves into any space with ambience %i,
+0	49	When any countdown timer goes off,
+0	50	When countdown timer %i goes off,
+0	51	When someone pays cookies into the cookie bank for cookie request number %i,
+0	52	When someone turns down the cookie bank request number %i,
+0	53	When someone eats a cookie,
+0	54	When someone makes or gives a cookie to another furre,
+0	55	When someone recieves a cookie from another furre,
+0	56	When someone goes AFK,
+0	57	When someone stops being AFK,
+0	58	When someone is summoned to the Dream,
+0	59	When a new Dream portal is placed by someone,
+0	60	When someone moves northeast,
+0	61	When someone moves southeast,
+0	62	When someone moves southwest,
+0	63	When someone moves northwest,
+0	64	When someone (bumps into/moves through) wall %i,
+0	65	When someone (bumps into/moves through) a wall with texture %i,
+0	66	When someone (bumps into/moves through) wall %i with texture %i,
+0	67	When someone moves from floor %i,
+0	68	When someone moves from item %i,
+0	69	When someone first moves into region %i, from a different region,
+0	70	When someone idles (doesn't do ANYTHING) for %i seconds,
+0	71	When someone stays in the same square for %i seconds,
+0	72	When someone remains motionless (doesn't turn, sit, stand or move) for %i seconds,
+0	73	When someone doesn't speak (or emote) for %i seconds,
+0	74	When someone ejects someone from the Dream,
+0	78	When someone tries to drop an item but fails,
+0	79	When someone tries to drop item %i but fails,
+0	80	When someone clicks DragonSpeak Button %i,
+0	81	When someone clicks any DragonSpeak Button,
+0	85	When someone clicks Ok for request number %i,
+0	86	When someone clicks Yes for request number %i,
+0	87	When someone clicks No for request number %i,
+0	90	When someone shakes their iPhone or iPod Touch,
+0	100	When %i seconds have passed, offset by %i,
+0	101	When the time is %i:%i FST
+0	200	Whenever a Dragon breathes,
+0	201	When a Dragon breathes on floor %i,
+0	202	When a Dragon breathes on item %i,
+0	203	When a Dragon breathes on position (%p),
+0	204	Whenever a Phoenix flames,
+0	205	When a Phoenix flames on floor %i,
+0	206	When a Phoenix flames on item %i,
+0	207	When a Phoenix flames at position (%p),
+0	208	When a Dragon breathes on wall %i,
+0	209	When a Dragon breathes on a wall with texture %i,
+0	210	When a Dragon breathes on wall %i with texture %i,
+0	220	When a Unicorn uses their Glamour,
+0	240	When someone uses magical Kittersize,
+0	250	When someone turns into a Dragon,
+0	251	When someone turns into a Phoenix,
+0	252	When someone turns into a Gryffe,
+0	253	When someone turns into an Eagle,
+0	270	When someone turns on Classic Wings,
+0	271	When someone turns on Butterfly Wings,
+0	272	When someone turns on Tri Wings,
+0	273	When someone turns on Bat Wings,
+0	274	When someone turns on any Wings,
+0	350	When someone deactivates their Dragon,
+0	351	When someone deactivates their Phoenix,
+0	352	When someone deactivates their Gryffe,
+0	353	When someone deactivates their Eagle,
+0	370	When someone turns off Classic Wings,
+0	371	When someone turns off Butterfly Wings,
+0	372	When someone turns off Tri Wings,
+0	373	When someone turns off Bat Wings,
+0	374	When someone turns off any Wings,
+0	400	When someone throws desctag %i, (list at www.furcadia.com/dsparams)
+0	401	When someone knocks someone down with any desctag,
+0	402	When someone knocks someone down with desctag %i, (list at www.furcadia.com/dsparams)
+0	403	When someone shares desctag %i, (list at www.furcadia.com/dsparams)
+0	404	When someone deflects desctag %i, (list at www.furcadia.com/dsparams)
+0	405	When someone eats desctag %i, (list at www.furcadia.com/dsparams)
+0	451	Whenever a dream portal is closed,
+1	2	and they move into floor %i,
+1	3	and they move into item %i,
+1	4	and they bump into a furre,
+1	5	and they successfully moved,
+1	7	and they move into position (%p),
+1	8	and they can see position (%p),
+1	10	and they are the Dream owner,
+1	11	and they have got shared control (or is the Dream owner),
+1	12	and they are facing towards position (%p),
+1	13	and they are facing northeast (up and right),
+1	14	and they are facing southeast (down and right),
+1	15	and they are facing southwest (down and left),
+1	16	and they are facing northwest (up and left),
+1	17	and the triggering furre (moved from/is standing at) floor %i,
+1	18	and the triggering furre (moved from/is standing at) item %i,
+1	19	and the triggering furre (moved from/is standing at) position (%p),
+1	20	and they are a Rodent,
+1	21	and they are an Equine,
+1	22	and they are a Feline,
+1	23	and they are a Canine,
+1	24	and they are a Musteline,
+1	25	and they are a Lapine,
+1	26	and they are a Dragon,
+1	27	and they are a Phoenix,
+1	28	and they are a Gryffe,
+1	29	and they are a Squirrel,
+1	30	and the floor at (%p) is the same as the floor at (%p),
+1	31	and the item at (%p) is the same as the item at (%p),
+1	32	and they are a Kitterwing,
+1	33	and they are a Bovine,
+1	34	and they are wearing Wings %i, (list at www.furcadia.com/dsparams/)
+1	35	and they are wearing any type of Wings,
+1	36	and they are male,
+1	37	and they are female,
+1	38	and they are unspecified gender,
+1	39	and they are a Wolven,
+1	40	and %i step(s) northeast (up and right) from the triggering furre is floor %i,
+1	41	and %i step(s) southeast (down and right) from the triggering furre is floor %i,
+1	42	and %i step(s) southwest (down and left) from the triggering furre is floor %i,
+1	43	and %i step(s) northwest (up and left) from the triggering furre is floor %i,
+1	44	and %i step(s) NE & %i step(s) NW from the triggering furre is floor %i,
+1	45	and %i step(s) NE & %i step(s) SE from the triggering furre is floor %i,
+1	46	and %i step(s) SW & %i step(s) SE from the triggering furre is floor %i,
+1	47	and %i step(s) SW & %i step(s) NW from the triggering furre is floor %i,
+1	50	and %i step(s) northeast (up and right) from the triggering furre is item %i,
+1	51	and %i step(s) southeast (down and right) from the triggering furre is item %i,
+1	52	and %i step(s) southwest (down and left) from the triggering furre is item %i,
+1	53	and %i step(s) northwest (up and left) from the triggering furre is item %i,
+1	54	and %i step(s) NE & %i step(s) NW from the triggering furre is item %i,
+1	55	and %i step(s) NE & %i step(s) SE from the triggering furre is item %i,
+1	56	and %i step(s) SW & %i step(s) SE from the triggering furre is item %i,
+1	57	and %i step(s) SW & %i step(s) NW from the triggering furre is item %i,
+1	58	and they are facing toward item %i,
+1	59	and they are facing towards floor %i,
+1	60	and they (bump into/move through) wall %i,
+1	61	and they (bump into/move through) a wall with texture %i,
+1	62	and they (bump into/move through) wall %i with texture %i,
+1	63	and the position they moved to has lighting %i,
+1	64	and the triggering furre (moved from/is standing in) lighting %i,
+1	65	and position (%p) has lighting %i,
+1	66	and the position they moved to has ambience %i,
+1	67	and the triggering furre (moved from/is standing in) ambience %i,
+1	68	and position (%p) has ambience %i,
+1	70	and their name is %s,
+1	71	and they have Silver, Gold, or Diamond Sponsorship,
+1	72	and they have Group Access Level %i or higher,
+1	73	and message %r matches the triggering furre's name,
+1	74	and message %r matches message %r,
+1	75	and message %r contains %s somewhere within it,
+1	76	and the length of message %r is greater than %i,
+1	77	and the length of message %r is equal to %i,
+1	78	and the furre named %s is in the Dream right now,
+1	79	and they are using an iPhone or iPod Touch,
+1	80	and they are within the rectangle (%p) - (%p),
+1	81	and they are within the diamond (%p) - (%p),
+1	82	and the furre named %s is AFK,
+1	83	and the position they moved to is in region %i,
+1	84	and the position they moved to is in regions %i through %i,
+1	85	and the triggering furre (moved from/is standing in) region %i,
+1	86	and position (%p) is in region %i,
+1	87	and region %i has some furres in it,
+1	88	and region %i has %i furres or more in it,
+1	90	and their entry code is %i,
+1	91	and their entry method was %i (One=Dream portal, Two=summoned in, Three=Dream url),
+1	92	and their entry code is less than %i,
+1	93	and their entry code is more than %i,
+1	94	and timer %i is still counting down,
+1	95	and their DragonSpeak Button %i is visible,
+1	96	and the position they moved to has effect %i,
+1	97	and the triggering furre (moved from/is standing in) effect %i,
+1	98	and position (%p) has effect %i,
+1	102	and they didn't move into floor %i,
+1	103	and they didn't move into item %i,
+1	104	and they didn't bump into a furre,
+1	105	and they were blocked from moving (or stood still),
+1	107	and they didn't move into position (%p),
+1	108	and they can't see position (%p),
+1	110	and they are not the Dream owner,
+1	111	and they haven't got shared control (and is not the Dream owner),
+1	112	and they are not facing towards position (%p),
+1	113	and they are not facing northeast (up and right),
+1	114	and they are not facing southeast (down and right),
+1	115	and they are not facing southwest (down and left),
+1	116	and they are not facing northwest (up and left),
+1	117	and the triggering furre (didn't move from/isn't standing at) floor %i,
+1	118	and the triggering furre (didn't move from/isn't standing at) item %i,
+1	119	and the triggering furre (didn't move from/isn't standing at) position (%p),
+1	120	and they are not a Rodent,
+1	121	and they are not an Equine,
+1	122	and they are not a Feline,
+1	123	and they are not a Canine,
+1	124	and they are not a Musteline,
+1	125	and they are not a Lapine,
+1	126	and they are not a Dragon,
+1	127	and they are not a Phoenix,
+1	128	and they are not a Gryffe,
+1	129	and they are not a Squirrel,
+1	130	and the floor at (%p) is different than the floor at (%p),
+1	131	and the item at (%p) is different than the item at (%p),
+1	132	and they are not a Kitterwing,
+1	133	and they are not a Bovine,
+1	134	and they are not wearing Wings %i, (list at www.furcadia.com/dsparams/)
+1	135	and they are not wearing any Wings,
+1	136	and they are not male,
+1	137	and they are not female,
+1	138	and they are not unspecified gender,
+1	139	and they are not a Wolven,
+1	140	and %i step(s) northeast (up and right) from the triggering furre is not floor %i,
+1	141	and %i step(s) southeast (down and right) from the triggering furre is not floor %i,
+1	142	and %i step(s) southwest (down and left) from the triggering furre is not floor %i,
+1	143	and %i step(s) northwest (up and left) from the triggering furre is not floor %i,
+1	144	and %i step(s) NE & %i step(s) NW from the triggering furre is not floor %i,
+1	145	and %i step(s) NE & %i step(s) SE from the triggering furre is not floor %i,
+1	146	and %i step(s) SW & %i step(s) SE from the triggering furre is not floor %i,
+1	147	and %i step(s) SW & %i step(s) NW from the triggering furre is not floor %i,
+1	150	and %i step(s) northeast (up and right) from the triggering furre is not item %i,
+1	151	and %i step(s) southeast (down and right) from the triggering furre is not item %i,
+1	152	and %i step(s) southwest (down and left) from the triggering furre is not item %i,
+1	153	and %i step(s) northwest (up and left) from the triggering furre is not item %i,
+1	154	and %i step(s) NE & %i step(s) NW from the triggering furre is not item %i,
+1	155	and %i step(s) NE & %i step(s) SE from the triggering furre is not item %i,
+1	156	and %i step(s) SW & %i step(s) SE from the triggering furre is not item %i,
+1	157	and %i step(s) SW & %i step(s) NW from the triggering furre is not item %i,
+1	158	and they are not facing toward item %i,
+1	159	and they are not facing towards floor %i,
+1	160	and they didn't (bump into/move through) wall %i
+1	161	and they didn't (bump into/move through) a wall with texture %i,
+1	162	and they didn't (bump into/move through) wall %i with texture %i,
+1	163	and the position they moved to does not have lighting %i,
+1	164	and the triggering furre (didn't move from/isn't standing in) lighting %i,
+1	165	and position (%p) doesn't have lighting %i,
+1	166	and the position they moved to does not have ambience %i,
+1	167	and the triggering furre (didn't move from/isn't standing in) ambience %i,
+1	168	and position (%p) doesn't have ambience %i,
+1	170	and their name is not %s,
+1	171	and the triggering furre does not have Silver, Gold, or Diamond Sponsorship,
+1	172	and the triggering furre does not have Group Access Level %i or higher,
+1	173	and message %r does not match the triggering furre's name,
+1	174	and message %r does not match message %r,
+1	175	and message %r does not contain %s anywhere within it,
+1	176	and the length of message %r is less than %i,
+1	177	and the length of message %r is not equal to %i,
+1	178	and the furre named %s is not in the Dream right now,
+1	179	and they are not using an iPhone or iPod Touch,
+1	180	and they are not within the rectangle (%p) - (%p),
+1	181	and they are not within the diamond (%p) - (%p),
+1	182	and the furre named %s is not AFK,
+1	183	and the position they moved to isn't in region %i,
+1	184	and the position they moved to is not in regions %i through %i,
+1	185	and the triggering furre (didn't move from/isn't standing in) region %i,
+1	186	and position (%p) is not in region %i,
+1	187	and region %i has no furres in it,
+1	188	and region %i has less than %i furres in it,
+1	190	and their entry code is not %i,
+1	191	and their entry method was not %i (One=Dream portal, Two=summoned in, Three=Dream url),
+1	192	and their entry code is not less than %i,
+1	193	and their entry code is not more than %i,
+1	194	and timer %i is not still counting down,
+1	195	and their DragonSpeak Button %i is not visible,
+1	196	and the position they moved to hasn't got effect %i,
+1	197	and the triggering furre (didn't move from/isn't standing in) effect %i,
+1	198	and position (%p) doesn't have effect %i,
+1	200	and %v is equal to %i,
+1	201	and %v is more than %i,
+1	202	and %v is less than %i,
+1	203	and %v is equal to %v,
+1	204	and %v is more than %v,
+1	205	and %v is less than %v,
+1	206	and %v is not equal to %i,
+1	207	and %v is not equal to %v,
+1	208	and the X,Y position in %v is the same as the position in %v,
+1	209	and the X,Y position in %v is not the same as the position in %v,
+1	250	and in array %i, starting at entry %i and checking %i entries, at least %i of them are equal to %i,
+1	251	and in array %i, starting at entry %i and checking %i entries, at least %i of them are not equal to %i,
+1	252	and in array %i, starting at entry %i and checking %i entries, at least %i of them are more than %i,
+1	253	and in array %i, starting at entry %i and checking %i entries, at least %i of them are less than %i,
+1	254	and in array %i, starting at entry %i and checking %i entries, exactly %i of them are equal to %i,
+1	255	and in array %i, starting at entry %i and checking %i entries, exactly %i of them are not equal to %i,
+1	256	and in array %i, starting at entry %i and checking %i entries, exactly %i of them are more than %i,
+1	257	and in array %i, starting at entry %i and checking %i entries, exactly %i of them are less than %i,
+1	258	and in array %i, starting at entry %i and checking %i entries, less than %i of them are equal to %i,
+1	259	and in array %i, starting at entry %i and checking %i entries, less than %i of them are not equal to %i,
+1	260	and in array %i, starting at entry %i and checking %i entries, less than %i of them are more than %i,
+1	261	and in array %i, starting at entry %i and checking %i entries, less than %i of them are less than %i,
+1	310	and entry number %i in array %i is equal to %i,
+1	311	and entry number %i in array %i is not equal to %i,
+1	312	and entry number %i in array %i is more than %i,
+1	313	and entry number %i in array %i is less than %i,
+1	340	and they are species %i, (list at www.furcadia.com/dsparams)
+1	341	and they are wearing a digo that is Type %i, (list at www.furcadia.com/dsparams)
+1	350	and they are their original size,
+1	351	and they are size %i,
+1	352	and they are at least size %i,
+1	353	and they are less than size %i,
+1	361	and the triggering furre can swim,
+1	440	and they are not species %i, (list at www.furcadia.com/dsparams)
+1	441	and they are not wearing a digo that is Type %i, (list at www.furcadia.com/dsparams)
+1	450	and they are not their original size,
+1	451	and they are not size %i,
+1	461	and the triggering furre can't swim,
+1	600	and the PhoenixSpeak info %s about the triggering furre is equal to %i,
+1	601	and the PhoenixSpeak info %s about the triggering furre is not equal to %i,
+1	602	and the PhoenixSpeak info %s about the triggering furre is more than %i,
+1	603	and the PhoenixSpeak info %s about the triggering furre is less than %i,
+1	605	and the PhoenixSpeak info %s about the triggering furre exists,
+1	606	and the PhoenixSpeak info %s about the triggering furre does not exist,
+1	610	and the PhoenixSpeak info %s about the furre named %s is equal to %i,
+1	611	and the PhoenixSpeak info %s about the furre named %s is not equal to %i,
+1	612	and the PhoenixSpeak info %s about the furre named %s is more than %i,
+1	613	and the PhoenixSpeak info %s about the furre named %s is less than %i,
+1	615	and the PhoenixSpeak info %s about the furre named %s exists,
+1	616	and the PhoenixSpeak info %s about the furre named %s does not exist,
+1	620	and the PhoenixSpeak info %s about this Dream is equal to %i,
+1	621	and the PhoenixSpeak info %s about this Dream is not equal to %i,
+1	622	and the PhoenixSpeak info %s about this Dream is more than %i,
+1	623	and the PhoenixSpeak info %s about this Dream is less than %i,
+1	625	and the PhoenixSpeak info %s about this Dream exists,
+1	626	and the PhoenixSpeak info %s about this Dream does not exist,
+1	630	and the PhoenixSpeak info %s about the triggering furre contains %s somewhere within it,
+1	631	and the PhoenixSpeak info %s about the triggering furre does not contain %s anywhere within it,
+1	632	and the length of PhoenixSpeak info %s about the triggering furre is greater than %i,
+1	633	and the length of PhoenixSpeak info %s about the triggering furre is equal to %i,
+1	634	and the length of PhoenixSpeak info %s about the triggering furre is less than %i,
+1	635	and the length of PhoenixSpeak info %s about the triggering furre is not equal to %i,
+1	680	and PhoenixSpeak is using the 'just testing' area to store info,
+1	681	and PhoenixSpeak is using the 'real and official' area to store info,
+1	700	and the Dream's cookie bank has at least %i cookies.
+1	701	and the Dream's cookie bank has less than %i cookies.
+1	702	and they have at least %i cookies.
+1	703	and they have less than %i cookies.
+1	800	and the last Dream portal to open is type %i, (list at www.furcadia.com/dsparams)
+1	801	and the last Dream portal to open is not type %i (list at www.furcadia.com/dsparams),
+1	802	and the last Dream portal to close is type %i (list at www.furcadia.com/dsparams),
+1	803	and the last Dream portal to close is not type %i (list at www.furcadia.com/dsparams),
+1	1000	and a random dice roll comes up (%i percent of the time),
+1	1002	and they are holding item %i in their paws,
+1	1004	and they are not holding item %i in paws,
+1	1005	and they are standing,
+1	1006	and they are sitting,
+1	1007	and they are lying down,
+1	1008	and they are not standing,
+1	1009	and they are not sitting,
+1	1010	and they are not lying down,
+1	1011	and position (%p) is floor %i,
+1	1012	and position (%p) is not floor %i,
+1	1013	and position (%p) is item %i,
+1	1014	and position (%p) is not item %i,
+1	1015	and position (%p) is wall %i,
+1	1016	and position (%p) is a wall with texture %i,
+1	1017	and position (%p) is wall %i with texture %i,
+1	1018	and position (%p) is not wall %i,
+1	1019	and position (%p) is not a wall with texture %i,
+1	1020	and position (%p) is not wall %i with texture %i,
+1	1100	and there's a furre at (%p),
+1	1101	and there's no furre at (%p),
+1	1200	and they are localspecies %i,
+1	1201	and they are not localspecies %i,
+1	1250	and their remap %i is color %i, (list at www.furcadia.com/dsparams)
+1	1251	and their remap %i is not color %i, (list at www.furcadia.com/dsparams)
+1	1300	and they have exactly %i of desctag %i, (list at www.furcadia.com/dsparams)
+1	1301	and they have at least %i of desctag %i, (list at www.furcadia.com/dsparams)
+1	1302	and they have less than %i of desctag %i, (list at www.furcadia.com/dsparams)
+3	1	everywhere on the whole map,
+3	2	at position (%p) on the map,
+3	3	within the diamond (%p) - (%p),
+3	4	within the rectangle (%p) - (%p),
+3	5	where the triggering furre was at,
+3	6	where the triggering furre moved into,
+3	7	whereever the triggering furre was at when the trigger activated,
+3	8	everyplace the triggering furre can see,
+3	9	everyplace that can be seen from (%p),
+3	10	in the space right in front of the triggering furre,
+3	11	%i step(s) in front of the triggering furre,
+3	12	in the space right behind the triggering furre,
+3	13	%i step(s) behind the triggering furre,
+3	14	in a line starting at (%p) and going %i more spaces northeast.
+3	15	in a line starting at (%p) and going %i more spaces southeast.
+3	16	in a line starting at (%p) and going %i more spaces southwest.
+3	17	in a line starting at (%p) and going %i more spaces northwest.
+3	18	at the last location where a Dream portal was placed,
+3	20	in the space just to the left of the triggering furre,
+3	21	%i step(s) to the left of the triggering furre,
+3	22	in the space just to the right of the triggering furre,
+3	23	%i step(s) to the right of the triggering furre,
+3	30	in region %i,
+3	31	everywhere outside region %i,
+3	32	everywhere in regions %i through %i,
+3	33	everywhere outside regions %i through %i,
+3	50	%i step(s) northeast (up and right) from where the triggering furre (moved from/is standing),
+3	51	%i step(s) southeast (down and right) from where the triggering furre (moved from/is standing),
+3	52	%i step(s) southwest (down and left) from where the triggering furre (moved from/is standing),
+3	53	%i step(s) northwest (up and left) from where the triggering furre (moved from/is standing),
+3	54	%i step(s) northeast (up and right) from where the triggering furre moved to,
+3	55	%i step(s) southeast (down and right) from where the triggering furre moved to,
+3	56	%i step(s) southwest (down and left) from where the triggering furre moved to,
+3	57	%i step(s) northwest (up and left) from where the triggering furre moved to,
+3	60	%i step(s) NE & %i step(s) NW from where the triggering furre (moved from/is standing),
+3	61	%i step(s) NE & %i step(s) SE from where the triggering furre (moved from/is standing),
+3	62	%i step(s) SW & %i step(s) SE from where the triggering furre (moved from/is standing),
+3	63	%i step(s) SW & %i step(s) NW from where the triggering furre (moved from/is standing),
+3	64	%i step(s) NE & %i step(s) NW from where the triggering furre moved to,
+3	65	%i step(s) NE & %i step(s) SE from where the triggering furre moved to,
+3	66	%i step(s) SW & %i step(s) SE from where the triggering furre moved to,
+3	67	%i step(s) SW & %i step(s) NW from where the triggering furre moved to,
+3	70	at the position where the most recent dream portal appeared,
+3	71	at the position where a dream portal most recently closed,
+3	500	at a random spot within the rectangle (%p) - (%p),
+3	501	at a random spot that is onscreen for the triggering furre,
+3	502	at a random spot somewhere in the Dream,
+3	510	at a random spot within the rectangle (%p) - (%p) where the floor is %i,
+3	511	at a random spot that is onscreen for the triggering furre where the floor is %i,
+3	512	at a random spot somewhere in the Dream where the floor is %i,
+3	520	at a random spot within the rectangle (%p) - (%p) where the floor is not %i,
+3	521	at a random spot that is onscreen for the triggering furre where the floor is not %i,
+3	522	at a random spot somewhere in the Dream where the floor is not %i,
+3	530	at a random spot within the rectangle (%p) - (%p) where the item is %i,
+3	531	at a random spot that is onscreen for the triggering furre where the item is %i,
+3	532	at a random spot somewhere in the Dream where the item is %i,
+3	540	at a random spot within the rectangle (%p) - (%p) where the item is not %i,
+3	541	at a random spot that is onscreen for the triggering furre where the item is not %i,
+3	542	at a random spot somewhere in the Dream where the item is not %i,
+3	550	at a random spot within the rectangle (%p) - (%p) where the region is %i,
+3	551	at a random spot that is onscreen for the triggering furre where the region is %i,
+3	552	at a random spot somewhere in the Dream where the region is %i,
+3	560	at a random spot within the rectangle (%p) - (%p) where the region is not %i,
+3	561	at a random spot that is onscreen for the triggering furre where the region is not %i,
+3	562	at a random spot somewhere in the Dream where the region is not %i,
+3	570	at a random spot within the rectangle (%p) - (%p) where the ambience is %i,
+3	571	at a random spot that is onscreen for the triggering furre where the ambience is %i,
+3	572	at a random spot somewhere in the Dream where the ambience is %i,
+3	580	at a random spot within the rectangle (%p) - (%p) where the ambience is not %i,
+3	581	at a random spot that is onscreen for the triggering furre where the ambience is not %i,
+3	582	at a random spot somewhere in the Dream where the ambience is not %i,
+3	590	at a random spot within the rectangle (%p) - (%p) where the lighting is %i,
+3	591	at a random spot that is onscreen for the triggering furre where the lighting is %i,
+3	592	at a random spot somewhere in the Dream where the lighting is %i,
+3	600	at a random spot within the rectangle (%p) - (%p) where the lighting is not %i,
+3	601	at a random spot that is onscreen for the triggering furre where the lighting is not %i,
+3	602	at a random spot somewhere in the Dream where the lighting is not %i,
+4	0	clear all filtering,
+4	1	only where the floor is %i,
+4	2	only where the floor is not %i,
+4	3	only where an item %i is,
+4	4	only where there is no item %i,
+4	7	only where there is an item,
+4	8	only where there are no items,
+4	9	only in places where someone can walk,
+4	10	only in places that can't be walked into,
+4	12	only in places the triggering furre can see,
+4	13	only in places the triggering furre cannot see,
+4	14	only in places that can be seen from (%p),
+4	15	only in places that can not be seen from (%p),
+4	30	only in region %i,
+4	31	only outside of region %i,
+4	32	only in regions %i through %i,
+4	33	only places that aren't in regions %i through %i,
+4	40	only where the effect overlay is %i,
+4	41	only where the effect overlay is not %i,
+4	42	only where the lighting type is %i,
+4	43	only where the lighting type is not %i,
+4	44	only where the ambience is %i,
+4	45	only where the ambience is not %i,
+5	1	set the floor to %i.
+5	2	change floor %i to floor %i.
+5	3	swap floor types %i and %i.
+5	4	place item %i.
+5	5	change item %i to item %i.
+5	6	swap item types %i and %i.
+5	7	place a random floor type between %i and %i.
+5	8	play sound %i to the triggering furre.
+5	9	play sound %i to any furre present.
+5	10	play sound %i to every furre who can see (%p).
+5	11	play sound %i to every furre who can see the triggering furre.
+5	12	play sound %i to everyone on the map.
+5	13	place a random item type between %i and %i.
+5	14	move the triggering furre to (%p) if there's nobody already there.
+5	15	move the triggering furre to (%p), or to someplace nearby if it's occupied.
+5	16	move any furre present to (%p) if there's nobody already there.
+5	17	move any furre present to (%p), or to someplace nearby if it's occupied.
+5	18	move the triggering furre back where they came from.
+5	19	move any furre present %i step(s) forward (in the direction they're facing) if there's nobody already there.
+5	20	move any item present %i step(s) in the direction the triggering furre is facing.
+5	21	move the item to (%p).
+5	22	copy the item to (%p).
+5	23	swap the item with the item at (%p).
+5	24	copy the floor to (%p).
+5	25	swap the floor with the floor at (%p).
+5	26	add %i to the item number.
+5	27	subtract %i from the item number.
+5	28	add %i to the floor number.
+5	29	subtract %i from the floor number.
+5	30	play midi %i to the triggering furre.
+5	31	play midi %i to everyone on the map.
+5	32	play music file %i to any furre present.
+5	33	play music file %i to every furre who can see (%p).
+5	34	play music file %i to every furre who can see the triggering furre.
+5	40	set the floor to floor %i at (%p).
+5	41	place item %i at (%p).
+5	42	place wall %i.
+5	43	set the wall texture to %i.
+5	44	place wall %i with texture %i
+5	45	swap wall types %i and %i.
+5	46	swap wall textures %i and %i.
+5	47	swap wall %i with texture %i and wall %i with texture %i.
+5	48	move the triggering furre to a random location in region %i.
+5	49	move any furre present to a random location in region %i.
+5	50	set countdown timer %i to go off in %i seconds.
+5	51	make any furre standing at (%p) become the new triggering furre.
+5	52	make any furre present have all their summon commands send people to the start of the Dream.
+5	53	allow any furre present to summon people right next to them again.
+5	54	make any furre present unable to lead and follow.
+5	55	allow any furre present to lead and follow again.
+5	56	make the furre named %s the new triggering furre, if they're in the Dream right now.
+5	60	change wall %i to wall %i.
+5	61	change wall texture %i to texture %i.
+5	62	change wall %i with texture %i to wall %i with texture %i.
+5	63	place wall %i at (%p).
+5	64	set the wall texture to %i at (%p).
+5	65	place wall %i with texture %i at (%p).
+5	66	move the wall to (%p).
+5	67	copy the wall to (%p).
+5	68	swap the wall with the wall at (%p).
+5	70	make the triggering furre stand up.
+5	71	make the triggering furre sit down.
+5	72	make the triggering furre lie down.
+5	73	make any furre present stand up.
+5	74	make any furre present sit down.
+5	75	make any furre present lie down.
+5	76	place item %i in the triggering furre's paws.
+5	77	place item %i in the paws of any furre present.
+5	78	eject the triggering furre from the Dream.
+5	80	move any furre present %i step(s) northeast (up and right) if there's nobody already there.
+5	81	move any furre present %i step(s) southeast (down and right) if there's nobody already there.
+5	82	move any furre present %i step(s) southwest (down and left) if there's nobody already there.
+5	83	move any furre present %i step(s) northwest (up and left) if there's nobody already there.
+5	84	move any furre present %i step(s) NE & %i step(s) NW if there's nobody already there.
+5	85	move any furre present %i step(s) NE & %i step(s) SE if there's nobody already there.
+5	86	move any furre present %i step(s) SW & %i step(s) SE if there's nobody already there.
+5	87	move any furre present %i step(s) SW & %i step(s) NW if there's nobody already there.
+5	88	turn the triggering furre clockwise.
+5	89	turn the triggering furre counterclockwise.
+5	90	turn the triggering furre to face northeast.
+5	91	turn the triggering furre to face southeast.
+5	92	turn the triggering furre to face southwest.
+5	93	turn the triggering furre to face northwest.
+5	94	turn any furre present clockwise.
+5	95	turn any furre present counterclockwise.
+5	96	turn any furre present to face northeast.
+5	97	turn any furre present to face southeast.
+5	98	turn any furre present to face southwest.
+5	99	turn any furre present to face northwest.
+5	100	turn on 'classic' mode and update the screen after each trigger.
+5	101	turn 'classic' mode back off.
+5	102	share Dream control with the triggering furre.
+5	103	share Dream control with any furre present.
+5	104	activate text filter number %i.
+5	105	set entry music to %i.
+5	106	allow global Dream uploads by Dream owner only.
+5	107	allow global Dream uploads by Dream owner and shared furres.
+5	108	allow global Dream uploads by everyone.
+5	109	allow Dream pad uploads by Dream owner only.
+5	110	allow Dream pad uploads by Dream owner and shared furres.
+5	111	allow Dream pad uploads by everyone.
+5	112	make summoned furres arrive at the start of the Dream.
+5	113	allow summoned furres to arrive right by the summoner.
+5	114	activate text filter number %i on the triggering furre. (list at www.furcadia.com/dsparams)
+5	115	activate text filter number %i on any furre present. (list at www.furcadia.com/dsparams)
+5	120	make this/these location(s) part of region %i.
+5	121	make location (%p) part of region %i.
+5	122	treat all regions numbered %i and higher as 'indoors', and only show furres there what's in that region.
+5	123	treat all regions as 'outdoors', and show furres all regions that are visible, all the time.
+5	124	show bottom walls in both indoor and outdoor regions.
+5	125	show bottom walls in outdoor regions only.
+5	127	show top walls in both indoor and outdoor regions.
+5	128	show top walls in indoor regions only.
+5	130	hide everything in region %i from everybody.
+5	131	show everything in region %i to everyone that can see there.
+5	132	hide all items in region %i from everybody.
+5	133	show items in region %i to everyone that can see there.
+5	134	hide all walls in region %i from everybody.
+5	135	show walls in region %i to everyone that can see there.
+5	136	hide all floors in region %i from everybody.
+5	137	show floors in region %i to everyone that can see there.
+5	138	hide all effects in region %i from everybody.
+5	139	show effects in region %i to everyone that can see there.
+5	140	show item %i in outdoor regions where items are hidden, instead of what's really there.
+5	141	show wall %i in outdoor regions where walls are hidden, instead of what's really there.
+5	142	show floor %i in outdoor regions where floors are hidden, instead of what's really there.
+5	143	show effect %i in outdoor regions where effects are hidden, instead of what's really there.
+5	144	show item %i in indoor regions where items are hidden, instead of what's really there.
+5	145	show wall %i in indoor regions where walls are hidden, instead of what's really there.
+5	146	show floor %i in indoor regions where floors are hidden, instead of what's really there.
+5	147	show effect %i in indoor regions where effects are hidden, instead of what's really there.
+5	148	move the triggering furre to (%p), or to someplace nearby within the same region if it's occupied.
+5	149	move any furre present to (%p), or to someplace nearby within the same region if it's occupied.
+5	150	place overlay effect %i.
+5	151	set location (%p) to overlay effect %i.
+5	152	place overlay effect %i where the triggering furre is.
+5	153	change effect %i to effect %i.
+5	154	swap effects %i and %i.
+5	155	place lighting %i.
+5	156	set location (%p) to lighting %i.
+5	157	place lighting %i where the triggering furre is.
+5	158	change lighting %i to lighting %i.
+5	159	swap lighting types %i and %i.
+5	160	set region %i to silent (furres can't speak there).
+5	161	allow furres to talk in region %i.
+5	162	make region %i unwalkable.
+5	163	make region %i walkable.
+5	164	make it impossible to sit or lie down in region %i.
+5	165	allow sitting and lying down in region %i.
+5	166	make it impossible to pick up or drop items in region %i.
+5	167	allow getting and dropping items in region %i.
+5	168	set region %i to prevent Dream uploading (except on Dream pads and for owners).
+5	169	set region %i to allow Dream uploading again.
+5	170	hide all lighting in region %i from everybody.
+5	171	show lighting in region %i to everyone that can see there.
+5	172	hide all ambience in region %i from everybody.
+5	173	show ambience in region %i to everyone that can see there.
+5	174	show lighting %i in outdoor regions where effects are hidden, instead of what's really there.
+5	175	show ambience %i in outdoor regions where effects are hidden, instead of what's really there.
+5	176	show lighting %i in indoor regions where effects are hidden, instead of what's really there.
+5	177	show ambience %i in indoor regions where effects are hidden, instead of what's really there.
+5	178	hide all effects from everyone in region %i.
+5	179	show all effects to everyone in region %i.
+5	180	show the triggering furre's DragonSpeak Button %i.
+5	181	hide the triggering furre's DragonSpeak Button %i.
+5	182	move the triggering furre's DragonSpeak Button %i to (%p).
+5	183	show the triggering furre's DragonSpeak Button %i in tab %i.
+5	184	set %v to the number of the DragonSpeak Button they just pressed.
+5	190	show everyone in the Dream's DragonSpeak Button %i.
+5	191	hide everyone in the Dream's DragonSpeak Button %i.
+5	192	move everyone in the Dream's DragonSpeak Button %i to (%p).
+5	193	show everyone in the Dream's DragonSpeak Button %i in tab %i.
+5	194	set region %i to require flying to move in.
+5	195	stop requiring flying in region %i.
+5	196	set region %i to require swimming to move in.
+5	197	stop requiring swimming in region %i.
+5	198	let furres move through all impassable floors, items & walls in region %i.
+5	199	stop letting furres move through impassable stuff in region %i.
+5	200	emit message %s to the triggering furre.
+5	201	emit message %s to any furre present.
+5	202	emit message %s to every furre who can see (%p).
+5	203	emit message %s to every furre who can see the triggering furre.
+5	204	emitloud message %s to everyone on the map.
+5	205	emit message %s to the furre named %s if they're in the Dream.
+5	210	set entrytext to %s.
+5	212	set silent speech prefix (for spoken commands) to %s.
+5	213	set the silence floor (where nobody can speak) to floor %i.
+5	214	set the silence item to item %i.
+5	215	set the 'you can't talk' message to %s.
+5	230	place a random effect between %i and %i.
+5	231	move any effect present %i step(s) in the direction the triggering furre is facing.
+5	232	move the effect to (%p).
+5	233	copy the effect to (%p).
+5	234	swap the effect with the effect at (%p).
+5	225	place ambience %i.
+5	226	set position (%p) to ambience %i.
+5	227	place ambience %i where the triggering furre is.
+5	228	change ambience %i to ambience %i.
+5	229	swap ambience %i and %i.
+5	250	set message %r to %s.
+5	251	copy message %r onto message %r.
+5	252	set message %r to the triggering furre's name.
+5	253	set message %r to today's date.
+5	254	set message %r to the current time (in Furcadia Standard Time).
+5	255	set message %r to what the triggering furre just said or emoted.
+5	256	reverse message %r from forwards to backwards.
+5	257	take message %r and add %s onto the end of it.
+5	258	take message %r and add message %r onto the end of it.
+5	270	chop off the end of message %r, leaving just the first %i characters of it still there.
+5	271	chop off the beginning of message %r, leaving just the last %i characters of it still there.
+5	272	set message %r to be the portion of message %r from position %i to position %i.
+5	273	chop off the end of message %r, removing the last %i characters of it.
+5	274	chop off the beginning of message %r, removing the first %i characters of it.
+5	275	use message %r as an array, and copy entry %i of it into message %r.
+5	276	use message %r as an array, and set entry %i of it to %s.
+5	277	remove the first word from message %r and put it in message %r.
+5	278	remove the first %i copies of %s from message %r.
+5	280	set %v to the length of message %r in characters.
+5	281	set %v to the length of message %r in words separated by spaces.
+5	282	set %v to the first number in %r.
+5	283	set %v to the total number of characters before %s appears in message %r (or zero if not found).
+5	284	set %v to the total number of characters after the first place %s appears in message %r (or zero if not found).
+5	300	set %v to the value %i.
+5	301	copy the value of %v into %v.
+5	302	take %v and add %i to it.
+5	303	take %v and add %v to it.
+5	304	take %v and subtract %i from it.
+5	305	take %v and subtract %v from it.
+5	306	multiply %v by %i.
+5	307	multiply %v by %v.
+5	308	divide %v by %i and put the remainder in %v.
+5	309	divide %v by %v and put the remainder in %v.
+5	310	use %v as an array, and copy entry %i of it into %v.
+5	311	use %v as an array, and set entry %i of it to %i.
+5	312	set %v to the total of rolling %i dice with %i sides plus %i.
+5	313	set %v to the total of rolling %i dice with %i sides minus %i.
+5	314	set %v to the number the triggering furre just said or emoted.
+5	315	set %v to the triggering furre's entry code.
+5	316	set the triggering furre's entry code to %i.
+5	317	set %v to the number of the item in the triggering furre's paws.
+5	318	set %v to the number of furres in the Dream.
+5	319	set %v to the X,Y position of the last Dream portal placed.
+5	320	set %v to the region number (%p) is part of.
+5	321	set %v to the current day of the month.
+5	322	set %v to the current hour FST (Furcadia Standard Time in twenty-four hour format).
+5	323	set %v to the current minute FST (Furcadia Standard Time).
+5	324	set %v to the current month of the year.
+5	325	set %v to the current second FST (Furcadia Standard Time).
+5	326	set %v to the current year.
+5	327	set %v to the number of the countdown timer that just went off.
+5	330	set %v to the effect overlay value at (%p).
+5	331	set %v to the lighting type at (%p).
+5	332	set %v to the ambience type at (%p).
+5	350	set %v to the X,Y position the triggering furre (moved from/is standing at).
+5	351	set %v to the X,Y position the triggering furre moved to.
+5	352	move the position in %v northeast (up and right) %i step(s).
+5	353	move the position in %v southeast (down and right) %i step(s).
+5	354	move the position in %v southwest (down and left) %i step(s).
+5	355	move the position in %v northwest (up and left) %i step(s).
+5	380	set %v to the floor type at (%p).
+5	381	set %v to the item type at (%p).
+5	382	set %v to the wall type at (%p).
+5	383	set %v to the wall texture at (%p).
+5	384	set %v to the x,y position (%p).
+5	390	starting with entry %i, set %i entries in array %i to %i.
+5	399	clear all variables to zero.
+5	400	cycle the three item types in this sequence one step forward: %i, %i, %i.
+5	401	cycle the four item types in this sequence one step forward: %i, %i, %i, %i.
+5	402	cycle the five item types in this sequence one step forward: %i, %i, %i, %i, %i.
+5	405	cycle the three lighting types in this sequence one step forward: %i, %i, %i.
+5	406	cycle the four lighting types in this sequence one step forward: %i, %i, %i, %i.
+5	407	cycle the five lighting types in this sequence one step forward: %i, %i, %i, %i, %i.
+5	415	cycle the three ambience types in this sequence one step forward: %i, %i, %i.
+5	416	cycle the four ambience types in this sequence one step forward: %i, %i, %i, %i.
+5	417	cycle the five ambience types in this sequence one step forward: %i, %i, %i, %i, %i.
+5	410	cycle the three floor types in this sequence one step forward: %i, %i, %i.
+5	411	cycle the four floor types in this sequence one step forward: %i, %i, %i, %i.
+5	412	cycle the five floor types in this sequence one step forward: %i, %i, %i, %i, %i.
+5	420	shake the triggering furre's map in style %i, for %i tenths of a second, with speed %i and intensity %i. (see www.furcadia.com/dsparams for info)
+5	421	shake the map of any furre present in style %i, for %i tenths of a second, with speed %i and intensity %i. (see www.furcadia.com/dsparams for info)
+5	422	stop all map shaking for the triggering furre.
+5	423	stop all map shaking for any furre present.
+5	430	jump the animation of all copies of item %i in the Dream to step %i.
+5	431	jump the animation of all copies of floor %i in the Dream to step %i.
+5	432	jump the animation of all copies of wall %i with wall texture %i to step %i.
+5	433	jump the animation of DragonSpeak Button %i to step %i for everyone in the Dream.
+5	434	reset the animation of all copies of item %i in the Dream.
+5	435	reset the animation of all copies of floor %i in the Dream.
+5	436	reset the animation of all copies of wall %i with wall texture %i.
+5	437	reset the animation of DragonSpeak Button %i for everyone in the Dream.
+5	438	set the default animation delay of item %i to %i milliseconds.
+5	439	set the default animation delay of floor %i to %i milliseconds.
+5	440	set the default animation delay of wall %i with wall texture %i to %i milliseconds.
+5	441	set the default animation delay of DragonSpeak Button %i to %i milliseconds for everyone in the Dream.
+5	442	jump the animation of the triggering furre's DragonSpeak Button %i to step %i.
+5	443	reset the animation of the triggering furre's DragonSpeak Button %i.
+5	444	set the default animation delay of the triggering furre's DragonSpeak Button %i to %i milliseconds.
+5	445	jump the animation of all copies of effect %i in the Dream to step %i.
+5	446	reset the animation of all copies of effect %i in the Dream.
+5	447	set the default animation delay of effect %i to %i milliseconds.
+5	448	jump the animation of all copies of lighting %i in the Dream to step %i.
+5	449	reset the animation of all copies of lighting %i in the Dream.
+5	450	set the default animation delay of lighting %i to %i milliseconds.
+5	451	jump the animation of all copies of ambience %i in the Dream to step %i.
+5	452	reset the animation of all copies of ambience %i in the Dream.
+5	453	set the default animation delay of ambience %i to %i milliseconds.
+5	460	move any item present %i step(s) northeast (up and right).
+5	461	move any item present %i step(s) southeast (down and right).
+5	462	move any item present %i step(s) southwest (down and left).
+5	463	move any item present %i step(s) northwest (up and left).
+5	470	move any effect present %i step(s) northeast (up and right).
+5	471	move any effect present %i step(s) southeast (down and right).
+5	472	move any effect present %i step(s) southwest (down and left).
+5	473	move any effect present %i step(s) northwest (up and left).
+5	500	set %v to the X,Y position of a random spot within the rectangle (%p) - (%p).
+5	501	set %v to the X,Y position of a random spot that is onscreen for the triggering furre.
+5	502	set %v to the X,Y position of a random spot somewhere in the Dream.
+5	510	set %v to the X,Y position of a random spot where the floor is %i within the rectangle (%p) - (%p).
+5	511	set %v to the X,Y position of a random spot where the floor is %i that is onscreen for the triggering furre.
+5	512	set %v to the X,Y position of a random spot where the floor is %i somewhere in the Dream.
+5	520	set %v to the X,Y position of a random spot where the floor is not %i within the rectangle (%p) - (%p).
+5	521	set %v to the X,Y position of a random spot where the floor is not %i that is onscreen for the triggering furre.
+5	522	set %v to the X,Y position of a random spot where the floor is not %i somewhere in the Dream.
+5	530	set %v to the X,Y position of a random spot where the item is %i within the rectangle (%p) - (%p).
+5	531	set %v to the X,Y position of a random spot where the item is %i that is onscreen for the triggering furre.
+5	532	set %v to the X,Y position of a random spot where the item is %i somewhere in the Dream.
+5	540	set %v to the X,Y position of a random spot where the item is not %i within the rectangle (%p) - (%p).
+5	541	set %v to the X,Y position of a random spot where the item is not %i that is onscreen for the triggering furre.
+5	542	set %v to the X,Y position of a random spot where the item is not %i somewhere in the Dream.
+5	600	memorize that the PhoenixSpeak info %s about the triggering furre will now be %i.
+5	601	memorize that the PhoenixSpeak info %s about the furre named %s will now be %i.
+5	602	memorize that the PhoenixSpeak info %s about this Dream will now be %i.
+5	603	memorize that the PhoenixSpeak info %s about the triggering furre will now be %s.
+5	604	memorize that the PhoenixSpeak info %s about the furre named %s will now be %s.
+5	605	memorize that the PhoenixSpeak info %s about this Dream will now be %s.
+5	610	remember the PhoenixSpeak info %s about the triggering furre, and put it in %v.
+5	611	remember the PhoenixSpeak info %s about the furre named %s, and put it in %v.
+5	612	remember the PhoenixSpeak info %s about this Dream, and put it in %v.
+5	613	remember the PhoenixSpeak info %s about the triggering furre, and put it in message %r.
+5	614	remember the PhoenixSpeak info %s about the furre named %s, and put it in message %r.
+5	615	remember the PhoenixSpeak info %s about this Dream, and put it in message %r.
+5	630	forget all PhoenixSpeak info about the triggering furre.
+5	631	forget all PhoenixSpeak info about the furre named %s.
+5	632	forget the PhoenixSpeak info %s about this Dream.
+5	633	forget all PhoenixSpeak info about this Dream.
+5	634	forget the PhoenixSpeak info %s about the triggering furre.
+5	635	forget the PhoenixSpeak info %s about the furre named %s.
+5	650	use the PhoenixSpeak 'just testing' area to store info from now on.
+5	651	use the PhoenixSpeak 'real and official' area to store info from now on.
+5	700	request %i cookies for the cookie bank from the triggering furre, with request number %i and message %s
+5	701	request %i cookies for the cookie bank from any furre present, with request number %i and message %s
+5	702	give %i cookies to the triggering furre.
+5	703	give %i cookies to anyone present.
+5	704	set %v to the number of cookies in the Dream's cookie bank.
+5	705	set %v to the total number of cookies the triggering furre has.
+5	706	mute Cookie given/recieved messages for the dreamowner.
+5	707	unmute Cookie given/recieved lines for the dreamowner.
+5	708	set cookie name to %s.
+5	709	set cookie eat message to %s.
+5	710	feed Beekin the Help Dragon %i cookies out of the Cookie Bank. (They'll be gone for good!)
+5	714	move and animate the triggering furre to (%p) if there's nobody already there.
+5	715	move and animate the triggering furre to (%p), or to someplace nearby if it's occupied.
+5	716	move and animate any furre present to (%p) if there's nobody already there.
+5	717	move and animate any furre present to (%p), or to someplace nearby if it's occupied.
+5	718	move and animate the triggering furre back where they came from.
+5	719	move and animate any furre present %i step(s) forward (in the direction they're facing) if there's nobody already there.
+5	720	move and animate the triggering furre to (%p), or to someplace nearby within the same region if it's occupied.
+5	721	move and animate any furre present to (%p), or to someplace nearby within the same region if it's occupied.
+5	722	move and animate the triggering furre to a random location in region %i.
+5	723	move and animate any furre present to a random location in region %i.
+5	780	move and animate any furre present %i step(s) northeast (up and right) if there's nobody already there.
+5	781	move and animate any furre present %i step(s) southeast (down and right) if there's nobody already there.
+5	782	move and animate any furre present %i step(s) southwest (down and left) if there's nobody already there.
+5	783	move and animate any furre present %i step(s) northwest (up and left) if there's nobody already there.
+5	784	move and animate any furre present %i step(s) NE & %i step(s) NW if there's nobody already there.
+5	785	move and animate any furre present %i step(s) NE & %i step(s) SE if there's nobody already there.
+5	786	move and animate any furre present %i step(s) SW & %i step(s) SE if there's nobody already there.
+5	787	move and animate any furre present %i step(s) SW & %i step(s) NW if there's nobody already there.
+5	880	forget all the PhoenixSpeak info about furres that haven't been used in %i days %i hours %i minutes %i seconds
+5	900	popup an Ok button dialog with request number %i and message %s for the triggering furre.
+5	901	popup a Yes/No dialog with request number %i and message %s for the triggering furre.
+5	910	popup an Ok button dialog with request number %i and message %s for any furre present.
+5	911	popup a Yes/No dialog with request number %i and message %s for any furre present.
+5	1000	redraw the screen and show everything that's just changed.
+5	1200	change the triggering furre to localspecies %i.
+5	1201	change any furre present to localspecies %i.
+5	1202	change the triggering furre back to their original species.
+5	1203	change any furre present back to their original species.
+5	1205	make localspecies %i mimic the avatar %i. (list at www.furcadia.com/dsparams)
+5	1206	make localspecies %i mimic the avatar %i, with gender %i. (list at www.furcadia.com/dsparams)
+5	1207	disable mimicry on localspecies %i.
+5	1250	set the triggering furre's remap %i to color %i. (list at www.furcadia.com/dsparams)
+5	1251	set %v to the color of the triggering furre's remap %i. (list at www.furcadia.com/dsparams)
+5	2000	reset the Dream and kick all the players out.
+5	3443	make any furre present scale to %i percent size.
